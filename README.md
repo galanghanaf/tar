@@ -20,6 +20,7 @@ tar -cjvf nama.tar.bz /path/to/directory-atau-file
 - **tar**
 ```
 tar -xvf nama.tar
+```
 
 - **gzip**
 ```
@@ -32,9 +33,11 @@ tar -xjvf nama.tar.bz
 ```
 
 ## **Format Perintah tar**
+```
 * -c: Membuat file file tar.
 * -x: Mengekstrak file tar.
 * -z: Membuat/mengekstrak file dengan program gzip.
 * -j: Membuat/mengekstrak file dengan program bzip2.
 * -v: Menampilkan progress pembuatan file.
 * -f: Menunjuk pada nama file tar.
+```
